@@ -1,4 +1,4 @@
-const CANTIDAD_DATOS = 50;
+const CANTIDAD_DATOS = 5;
 
 const nombres = ['santiago', 'isabel', 'jhon', 'maria', 'jose', 'juan', 'pedro', 'jose', 'juan', 'pedro'];
 const apellidos = ['altamura','carreño','lopez','gonzalez','getti','bustamante','bageri'];
