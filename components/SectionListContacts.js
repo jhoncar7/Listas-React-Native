@@ -21,9 +21,9 @@ export default ({contacts})=>{
         }
     },{})
 
-    console.log(constactsByLetter);
+    //console.log(constactsByLetter);
 
-    const sections = Object.keys(constactsByLetter).map(letter=>{
+    const sections = Object.keys(constactsByLetter).sort().map(letter=>{
         return {
             title: letter,
             data: constactsByLetter[letter]
